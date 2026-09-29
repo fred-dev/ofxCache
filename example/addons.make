@@ -1,5 +1,5 @@
 ofxCache
 ofxIO
-ofxPoco
+ofxPocoHeaders
 ofxSQLiteCpp
 ofxTaskQueue
