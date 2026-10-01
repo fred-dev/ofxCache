@@ -280,3 +280,39 @@
 # OSX
 .DS_Store
 .AppleDouble
+
+# openFrameworks: commit src/, bin/data/ and addons.make only.
+# Regenerate IDE projects with projectGenerator.
+*.xcodeproj/
+*.xcworkspace/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.cbp
+xcuserdata/
+.vscode/
+/tests/*/*/Makefile
+/tests/*/*/config.make
+/tests/*/*/Project.xcconfig
+/tests/*/*/openFrameworks-Info.plist
+/tests/*/*/of.entitlements
+/tests/*/*/icon.rc
+
+# Build output (bin/data is kept)
+!/tests/*/*/bin/data/
+obj/
+build/
+*.o
+*.app/
+*.exe
+*.pdb
+*.ilk
+*.exp
+
+# OS / editor
+._*
+Thumbs.db
+Desktop.ini
+*.swp
+.idea/
